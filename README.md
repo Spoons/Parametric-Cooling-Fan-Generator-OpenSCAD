@@ -11,9 +11,11 @@ pressure to draw air through the motor windings. Additionally, a course pitch is
 recommended to generate airflow at low rpms. Fan's have been tested at 15k rpm.
 
 Set propeller\_d to the diameter of the motor (eg 63mm). Set hub\_recess to the
-diameter of the extruded part of the motor, which contains the scew holes,
-finally, set screwhole\_r to the distance between the screw hole and the center
+diameter of the extruded part of the motor, which contains the scew holes.
+Finally, set screwhole\_r to the distance between the screw hole and the center
 of the stator shaft.
+
+Attach cooling fan with M3 machine screws.
 
 
 Required libraries
