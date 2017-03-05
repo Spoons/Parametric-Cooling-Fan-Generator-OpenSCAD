@@ -1,33 +1,19 @@
-Parametric fan blades
-=====================
+Parametric Brushless RC Fan
+===========================
 
 Introduction
 ------------
 
-This is a customizable, 3d-printable set of fan blades that can be attached onto
-broken DC brushless fan hubs.
+This is a fork of hyperair's parametric fan blade generator. This program generates
+cooling fans appropriate for mounting onto the back of a brushless rc motors.
+A high hub to diameter ratio is neccesary in order to generate enough
+pressure to draw air through the motor windings. Additionally, a course pitch is
+recommended to generate airflow at low rpms. Fan's have been tested at 15k rpm.
 
-Pre-rendered STLs and images can be found on
-[thingiverse](http://www.thingiverse.com/thing:689564).
-
-
-Instructions
--------------
-
-1. Cut off the remaining blades of your fan hub.
-2. Grind down the stubs so you get the fan hub as round and balanced as
-   possible.
-3. Measure the diameter of your fan hub in mm, add 0.5 for a bit of clearance,
-   and specify that in `hub_d`.
-4. Measure the outer diameter of your fan hub in mm, subtract 0.5, and specify
-   that in `propeller_d`.
-5. Measure the thickness of your hub, and specify that in `blade_thickness`.
-6. Check which way your fan spins, with the fan facing you (wind blows away from
-   you, towards the frame). Specify that in `blade_direction` -- `-1` for
-   counter-clockwise, `1` for clockwise.
-7. Print with around 0.1mm layer height, or whatever works best for you. The
-   overhang can be tricky, so the lower you go without overheating your part,
-   the better. Solid, because there isn't any area for infill anyway.
+Set propeller\_d to the diameter of the motor (eg 63mm). Set hub\_recess to the
+diameter of the extruded part of the motor, which contains the scew holes,
+finally, set screwhole\_r to the distance between the screw hole and the center
+of the stator shaft.
 
 
 Required libraries
