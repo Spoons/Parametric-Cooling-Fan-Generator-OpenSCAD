@@ -11,14 +11,14 @@ echo ("hub to tip ratio: ", hub_d/propeller_d*100);
 
 number_of_blades = 10;
 wall_thickness = .8;
-hub_d = 30;
+hub_d = 47;
 hub_od = hub_d + wall_thickness * 2;
 hub_recess = 15.7;
 propeller_d = 63;
 
 blade_height = 8;
 blade_thickness = 0.3;
-blade_pitch = 60;               // average, because it's parabolic
+blade_pitch = 76;               // average, because it's parabolic
 blade_direction = 1;           // -1 for counter-clockwise, 1 for clockwise
 blade_shape = "parabolic";      // "parabolic" or "linear"
 

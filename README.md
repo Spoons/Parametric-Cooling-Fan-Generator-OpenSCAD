@@ -1,5 +1,5 @@
-Parametric Brushless RC Fan
-===========================
+Parametric Brushless RC Fan Generator
+=====================================
 
 Introduction
 ------------
